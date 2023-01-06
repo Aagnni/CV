@@ -1,1 +1,1 @@
-# CV
+This repository contains html and css files used to create my CV website.
