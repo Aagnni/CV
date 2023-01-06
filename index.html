@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="stylesheet/style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"/>
+
+  </head>
+  <body>
+
+<section id="nav-bar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Agnieszka Kercz</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+</section>
+
+<h2 id="name_header">Agnieszka Kercz</h2>
+<h5 id="cv_header"> Curriculum Vitae</h5>
+<section id="about">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+      <a href="#"><img src="img/pic.jpg" class="pic-fluid" id="pic"></a>
+    </div>
+    <div class="col-md-6">  
+      <h3 id="about_header"> About me</h3>
+      <p> I am a student at the University of Gdańsk. Currently, I am in my final year of MA studies.<br>
+      <br>
+          I am interested in linguistics and natural laguage processing. I especially enjoy working with syntax as well as semantics and pragmatics.<br>
+      <br>
+          In my BA thesis i explored the use of language as a means of manipulation during the 2016 Brexit debate in the UK. My current work is focused on sentiment analysis of metaphors in political discourse on the basis of "House of Cards".
+      </p>
+    </div>
+    </div>
+    </div>
+</section>
+
+<section id="education">
+    <div class="container">
+    <div class="row text-center">
+    <h2 id="education_header">Education</h2>
+    
+    <div class="col-md-6 education">
+    <div id="BA">
+      <img src="img/cap.jpg" class="cap">
+      <h4>Bachelor of Arts</h4>
+      <p>English Philology</p>
+      <p>English Language Teaching</p>
+      <p>University of Gdansk</p>
+      <p>2018-2021</p>
+    </div>
+    </div>
+        
+    <div class="col-md-6 education">
+    <div id="MA">
+      <img src="img/cap.jpg" class="cap">
+      <h4>Master of Arts</h4>
+      <p>English Philology</p>
+      <p>Natural Language Processing</p>
+      <p>University of Gdansk</p>
+      <p>2021-ongoing</p>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+
+<section id="skills">
+    <h2 id="skills_header">Skills</h2>
+    <button class="accordion">Languages</button>
+      <div class="panel">
+        <ul>
+          <li>English C2</li>
+          <li>Spanish B2</li>
+          <li>Italian A2</li>
+        </ul>
+      </div>
+    
+    <button class="accordion">IT</button>
+      <div class="panel">
+        <ul>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SQL</li>
+          <li>Markdown</li>
+          <li>LaTeX</li>
+          <li>JupyterNotebook</li>
+          <li>Microsoft Office</li>
+          <li>Linux</li>
+        </ul>
+      </div>
+    
+    <button class="accordion">Other</button>
+      <div class="panel">
+        <ul>
+          <li>Communication</li>
+          <li>Working in a team</li>
+          <li>Organization</li>
+          <li>Critical thinking</li>
+        </ul>
+      </div>
+    
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+    
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+      
+      this.classList.toggle("active");
+    
+                 
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+          panel.style.display = "none";
+          } else {
+          panel.style.display = "block";
+          }
+        });
+        }
+    </script> 
+</section>
+
+<section id="contact">
+    <div class="container">
+    <div class="row">
+      <h1 id="contact_header">Contact</h1>
+      <div class="col-md-4">
+      <a href="https://github.com/Aagnni"><img src="img/github.png" id="logo">Aagnni</a>
+      </div>
+      <div class="col-md-4">
+      <a href="https://www.facebook.com/AskingAbvb/"><img src="img/fb.png" id="logo">Agnieszka Kercz</a>
+      </div>
+      <div class="col-md-4">
+      <a href = "mailto: agnieszkakercz@gmail.com"><img src="img/mail.png" id="logo">agnieszkakercz@gmail.com</a>
+      </div>
+    </div>
+    </div>
+</section>
+</body>
+</html>
