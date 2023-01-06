@@ -1,0 +1,146 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: sans-serif;
+    background-image:#c0afc0;
+}
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar
+{
+    background-image: linear-gradient(to right, #e7cdea, #876996) ;
+    padding: 0 !important;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    color: black !important;
+    font-weight: 400;
+}
+
+#name_header
+{
+    padding: 2%;
+    padding-left: 7%;
+    align-items: center;
+}
+
+#cv_header
+{
+    padding-bottom: 2%;
+    padding-left: 10%;
+}
+
+#about
+{
+    padding: 5%;
+    text-align:justify;
+}
+
+
+#pic
+{
+    height: 35%;
+    display: block;
+    margin: 0 auto;
+}
+
+#education_header
+{
+    padding-bottom:2%;
+    padding-top: 5%;
+}
+
+.cap
+{
+    width: 50px;
+}
+
+.education
+{
+    padding: 10%;
+
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+.active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+#skills_header
+{
+    text-align: center;
+}
+
+#skills
+{
+    padding: 10%;
+}
+
+#contact
+{
+    background-color: #fff;
+    margin: 10%;
+    padding: 5%;
+}
+  
+#contact_header 
+{
+    text-align: center;
+}
+  
+#contact a 
+{
+    color: black;
+    margin-left: 40px;
+    margin-bottom: 18px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 18px;
+}
+
+#contact_header
+{
+    padding-bottom: 5%;
+}
+
+#logo
+{
+    width: 10%;
+}
